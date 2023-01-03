@@ -496,6 +496,20 @@ ul, li{
     .header__decor-text--two{
         left: 0;
     }
+    .buy__title{
+        text-align: center;
+    }
+    .buy__inner{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .buy__img{
+        order: -1;
+    }
+    .buy__btn{
+        display: block; 
+        margin: 0 auto;
+    }
 }
 @media (max-width: 1110px){
     .info__inner{
@@ -521,12 +535,24 @@ ul, li{
         display: block;
     }
 }
+@media (max-width: 770px){
+    .buy__price{
+        position: initial;
+        margin: 50px auto;
+    }
+}
 @media (max-width: 630px){
     .info__spec-list{
         width: 100%;
     }
     .info__spec-item{
         display: block;
+    }
+    .buy__img{
+        width: 270px;
+    }
+    .buy__btn{
+        width: 270px;
     }
 }
 @media (max-width: 720px){
@@ -555,5 +581,8 @@ ul, li{
     .header__title{
         font-size: 50px;
         line-height: 60px;
+    }
+    .buy__descr{
+        text-align: center;
     }
 }
